@@ -1,0 +1,206 @@
+/* PAGE :: News */
+#body-wrap .col-md-6{
+  padding: 0 15px;
+}
+#news{
+  padding: 0;
+  background: #fafafa none repeat scroll 0 0;
+}
+#news .row{ 
+  display: block;
+}
+.frame-margin-top{
+  margin-top: 35px;
+}
+.news-gap-bottom{
+  margin-bottom: 10px;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #ccc;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: #ffc720;
+}
+.post-thumb{
+  margin: -1px -1px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.post-thumb iframe{
+  width: 100%;
+  min-height: 270px;
+  border: 0;
+}
+
+.post-overlay{
+  position: absolute;
+  top: 50%;
+  display: none;
+  width: 94px;
+  height: 140px;
+  margin-top: -55px;
+  overflow: hidden;
+  z-index: 0;
+}
+.full-news-details .post-frame .post-overlay{
+  display: block;
+} 
+.post-overlay span{
+  position: absolute;
+  left: 50%;
+  bottom: 0; 
+  margin-left: -60px;
+  -webkit-animation: fadeInUp 400ms;
+  -moz-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+  z-index: 9;
+}
+.post-overlay span a{
+  font-size: 30px;
+  color: #fff;
+  background: transparent;
+  padding: 0; 
+  margin-left: 50px;
+}
+.single-news:hover .post-overlay,
+.post-overlay .post-frame{
+  display: block;
+  -webkit-animation: fadeIn 300ms;
+  -moz-animation: fadeIn 300ms;
+  animation: fadeIn 300ms;
+}
+.single-news:hover .post-frame .post-thumb img,
+.single-news:hover .post-thumb img
+{
+  opacity: 0.5;
+}
+.post-content{
+  padding: 20px 7px 25px;
+}
+.post-title {
+/*	height: 100%;*/
+	margin-top: 0;
+	min-height: 55px;
+}
+.post-title a{
+  color: #6c2c8d;
+  font-family: inherit;
+}
+.post-title a:hover{
+  color: #ffc720;
+}
+.post-content .post-author{
+  margin-top: 0; 
+}
+.post-content  .post-author a{
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+}
+.post-bottom{
+  padding-top: 10px;
+  margin-top: 20px;
+  margin: 20px -20px 0;
+  padding: 20px 20px 0;
+}
+.single-news{
+  margin-bottom: 10px;
+}
+
+.single-news .post-bottom{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.single-news .post-overlay span,
+.post-frame .post-overlay span{
+  animation: 400ms ease 0s normal none 1 running fadeInLeft;
+  border-bottom: 58px solid transparent;
+  border-left: 94px solid #6c2c8d;
+  border-top: 58px solid transparent;
+  height: 0;
+  left: 0;
+  margin-left: 0;
+  top: 6px;
+  width: 0;
+}
+
+.single-news .post-overlay span a,
+.post-frame .post-overlay span a{
+  font-size: 29px;
+  font-weight: 700;
+  left: -99px;
+  line-height: 18px;
+  margin-left: 8px;
+  position: absolute;
+  top: -21px;
+}
+
+.single-news .post-overlay span a small,
+.post-frame .post-overlay span a small{
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+.single-news .post-overlay span:before,
+.post-frame .post-overlay span:before{
+  border-color: transparent;
+  border-width: 0;
+}
+.post-option{
+  display: inline-block;
+  vertical-align: middle;
+}
+.post-content .entry-meta li{
+  margin-right: 15px;
+}
+.post-content .entry-meta > li:last-child {
+  margin-right: 0;
+}
+.post-nav{
+  margin:0;
+  padding: 0;
+}
+.post-nav li a {
+  color: #888;
+  font-size: 12px;
+  padding: 0 6px 0 0;
+  text-align: left;
+}
+.post-nav li a i{
+  color: #ffc720;
+  margin-right: 8px;
+}
+.post-nav li a:hover{
+  background: none;
+  color: #ffc720;
+}
+.news-padding-right{
+  padding-right:35px;
+}
+.news-pagination {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.news-img{
+  height: 240px;
+  width: 100%;
+}
+.post-content p{
+	height: 145px;
+	overflow: hidden;
+}
+.blog-pagination {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 55px;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+  z-index: 0;
+}

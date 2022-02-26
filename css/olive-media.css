@@ -1,0 +1,138 @@
+@media (max-width: 480px) {
+    body {
+        padding-top: 0;
+    }
+    .post-entry {
+        margin-top: 15px;
+    }
+    .post-entry figure a,
+    .blog-detail .post-entry figure,
+    .vid-box,
+    .post-thumbnail .post-frame,
+    .main-video.post-frame,
+    .single-news .post-frame {
+        padding: 20px;
+    }
+    .post-entry figure a:before,
+    .blog-detail .post-entry figure:before,
+    .vid-box:before,
+    .post-entry figure a:after,
+    .blog-detail .post-entry figure:after,
+    .vid-box:after,
+    .post-thumbnail .post-frame::before,
+    .main-video.post-frame::before,
+    .single-news .post-frame::before,
+    .post-thumbnail .post-frame::after,
+    .main-video.post-frame::after,
+    .single-news .post-frame::after {
+        height: 60px;
+        width: 60px;
+    }
+    .post-entry figure a:hover:before {
+        top: 10px;
+        left: 10px;
+    }
+    .post-entry figure a:hover:after {
+        bottom: 10px;
+        right: 10px;
+    }
+    .entry-meta {
+        margin-top: 5px;
+    }
+    .blog-detail .entry-meta {
+        margin-left: 0;
+    }
+    .entry-content {
+        margin-top: 10px;
+    }
+    .scrollup {
+        right: 22px;
+    }
+    .breadcrumb {
+        position: static;
+        display: block;
+    }
+    .entry-share span {
+        line-height: 36px;
+    }
+    .post-navigation .row > div {
+        margin-bottom: 20px;
+    }
+    .comment-author {
+        margin-bottom: 20px;
+    }
+    .commentlist li .children {
+        margin-left: 20px;
+    }
+    .comment-respond {
+        margin-bottom: 30px;
+    }
+    .testimonial-container {
+        margin-bottom: 50px;
+    }
+    .testimonials .persona-details {
+        margin-bottom: 35px;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 768px) {
+    .nav-search {
+        width: 90%;
+        margin: 0;
+    }
+    .nav-search input {
+        width: 75%;
+    }
+}
+
+@media (max-width:768px) {
+    .ft-social-link > ul > li > a > i {
+        line-height: 26px;
+    }
+    .commentlist .children .persona-details figure {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media(min-width: 992px) and (max-width:1200px) {
+    body {
+        padding-top: 104px;
+    }
+    #main-heade {
+        background: #f8f8f8;
+    }
+    .nav-search input {
+        width: 78%;
+    }
+}
+
+@media (min-width:768px) {
+    #our-courses .row >div:first-child {
+        padding-right: 0;
+    }
+    #our-courses .row >div:last-child {
+        padding-left: 0;
+    }
+    .testimonials {
+        margin-top: 40px;
+    }
+    .testimonials .testimonial-container:nth-child(even) .row> div:first-child {
+        left: 66.66666667%;
+    }
+    .testimonials .testimonial-container:nth-child(even) .row> div:last-child {
+        right: 33.33333333%;
+    }
+    .entry-meta{
+        margin-top: 20px;
+    }
+}
+
+@media(min-width:1200px) {
+    .bg-top {
+        margin-top: 104px;
+    }
+    #main-heade {
+        background: #f8f8f8;
+    }
+}
